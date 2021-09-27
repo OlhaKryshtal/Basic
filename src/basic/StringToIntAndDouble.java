@@ -9,7 +9,8 @@ public class StringToIntAndDouble {
         y = Double.parseDouble(s1);
         System.out.println("x = " + x);
         System.out.println("y = " + y);
-// make int and double from String
+
+        // make int and double from String
     }
 
 }
