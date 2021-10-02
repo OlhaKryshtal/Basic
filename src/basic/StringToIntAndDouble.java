@@ -10,6 +10,8 @@ public class StringToIntAndDouble {
         System.out.println("x = " + x);
         System.out.println("y = " + y);
 
+        System.out.println(s1);
+        System.out.println(s);
         // make int and double from String
     }
 
