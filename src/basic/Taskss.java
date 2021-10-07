@@ -92,7 +92,10 @@ class RankNumber {
 
         for (int i = 0; i < numbers.length; i++) {
             int current = Integer.parseInt(numbers[i]);
-            if (current == 0) min = 0, max = 0;
+            if (current == 0) {
+                min = 0;
+                max = 0;
+            }
 
             if (min > current) min = current;
             if (max < current) max = current;
@@ -155,7 +158,7 @@ class HappyNumbers {
             int number = Integer.parseInt(numbers[i]);
 
             int a = number / 100_000;
-            int b = (number % 100_000) /10_000;
+            int b = (number % 100_000) / 10_000;
             int c = (number % 10_000) / 1000;
             int d = (number % 1000) / 100;
             int e = (number % 100) / 10;
